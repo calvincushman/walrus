@@ -56,3 +56,16 @@ img {
 
 img {
 }
+
+.row {
+  float: right;
+  margin-bottom: 50px;
+}
+
+.dark-background {
+  background-color: #1E1E1E;
+}
+
+.light-text {
+  color: lightgray;
+}
