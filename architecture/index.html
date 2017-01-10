@@ -4,18 +4,34 @@
     <meta charset="utf-8">
     <title>Architecture</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
 
   <body>
-    <p> Click here for a picture of a beautiful college building </p>
-    <img src="img/college.jpg" alt="a photo of a college" />
+    <div class="container">
+      <div class="college-hidden">
+        <p><span class="click1">Click here</span> for a picture of a beautiful college building </p>
+      </div>
+      <div class="college-showing">
+        <p><span class="click1">Click here</span> to hide the college</p>
+        <img src="img/college.jpg" alt="a photo of a college" />
+      </div>
+      <div class="stonehenge-hidden">
+        <p><span class="click2">Click here</span> for a picture of Stonehenge </p>
+      </div>
+      <div class="stonehenge-showing">
+        <p><span class="click2">Click here</span> to hide Stonehenge</p>
+        <img src="img/stonehenge.jpg" alt="A photo of Stonehenge" />
+      </div>
+      <div class="opera-hidden">
+        <p><span class="click3">Click here</span> for a picture of the Sydney Opera House </p>
+      </div>
+      <div class="opera-showing">
+        <p><span class="click3">Click here</span> to hide the opera house</p>
+        <img src="img/sydney.jpg" alt="A photo of the Sydney Opera House" />
+      </div>
 
-    <p> Click here for a picture of Stonehenge </p>
-    <img src="img/stonehenge.jpg" alt="" />
-
-    <p> Click here for a picture of the Sydney Opera House </p>
-    <img src="img/sydney.jpg" alt="" />
-
+    </div>
   </body>
 </html>

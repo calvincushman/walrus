@@ -2,3 +2,42 @@ img {
   width: 300px;
   height: auto;
 }
+
+.click1 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click1:hover {
+  text-decoration: underline;
+}
+
+.click2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click2:hover {
+  text-decoration: underline;
+}
+
+.click3 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click3:hover {
+  text-decoration: underline;
+}
+
+.college-showing {
+  display: none;
+}
+
+.stonehenge-showing {
+  display: none;
+}
+
+.opera-showing {
+  display: none;
+}
