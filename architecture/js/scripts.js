@@ -1,13 +1,13 @@
 $(function() {
-  $(".click1").click(function() {
+  $("button#college").click(function() {
     $(".college-hidden").toggle();
     $(".college-showing").toggle();
   });
-  $(".click2").click(function() {
+  $("button#stonehenge").click(function() {
     $(".stonehenge-showing").fadeToggle();
     $(".stonehenge-hidden").fadeToggle();
   });
-  $(".click3").click(function() {
+  $("button#opera").click(function() {
     $(".opera-showing").slideToggle();
     $(".opera-hidden").slideToggle();
   });
