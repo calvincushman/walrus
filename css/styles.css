@@ -1,0 +1,21 @@
+img {
+  width: 300px;
+  height: auto;
+}
+
+#initially-hidden{
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.toggletext {
+  margin-bottom: 60px;
+}
